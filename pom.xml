@@ -5,7 +5,7 @@
 	<artifactId>playmatecat-web</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>playmatecat-web Maven Webapp</name>
+	<name>playmatecat-web</name>
 	<url>http://maven.apache.org</url>
 
 	<!-- 把依赖的jar包拷到lib目录下 -->
@@ -50,20 +50,24 @@
 	</build>
 
 	<dependencies>
-        <!-- 外部工程依赖 -->
-        <dependency>
-            <groupId>com.playmatecat</groupId>
-            <artifactId>playmatecat-commons</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-	    <dependency>
-            <groupId>com.playmatecat</groupId>
-            <artifactId>playmatecat-domain</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>   
-	
-	
-		
+		<!-- 外部工程依赖 -->
+		<dependency>
+			<groupId>com.playmatecat</groupId>
+			<artifactId>playmatecat-commons</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.playmatecat</groupId>
+			<artifactId>playmatecat-domain</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>4.1.5.RELEASE</version>
+		</dependency>
+
 	</dependencies>
 
 </project>
