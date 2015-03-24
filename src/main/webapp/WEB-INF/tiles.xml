@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <definition name="projectName.baseLayout" template="/WEB-INF/tiles/layouts/projectName/baseLayout.jsp">
+        <put-attribute name="head" value="/WEB-INF/tiles/layouts/projectName/head.jsp" />
+        <put-attribute name="primary-content" value="" />
+    </definition>
+    
+    <!-- 测试页面 -->
+    <definition name="test-tiles" extends="facadeleaf.baseLayout">
+        <put-attribute name="title" value="tiles测试页" />
+        <put-attribute name="body" value="/WEB-INF/jsp/tiles-test1.jsp" />
+    </definition>
+    
+    <!-- index首页 -->
+    <definition name="index" extends="facadeleaf.baseLayout">
+        <put-attribute name="title" value="欢迎来到ElfLeaf" />
+        <put-attribute name="body" value="/WEB-INF/jsp/index.jsp" />
+    </definition>
+
+</tiles-definitions>
