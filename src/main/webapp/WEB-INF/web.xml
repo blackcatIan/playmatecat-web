@@ -53,7 +53,7 @@
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
 			<!-- spring mvc启动配置文件 -->
-			<param-value>classpath*:config/spring/mvc-dispatcher-servlet.xml
+			<param-value>classpath*:config/spring/dispatcher-mvc-servlet.xml
 			</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
