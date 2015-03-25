@@ -5,14 +5,10 @@
 <tiles-definitions>
     <!-- 测试页面 -->
     <definition name="testModule.testMain" extends="testProject.baseLayout">
-        <put-attribute name="title" value="tiles测试页" />
+        <put-attribute name="title" value="tiles测试页1" />
         <put-attribute name="main" value="/WEB-INF/jsp/testModule/testMain.jsp" />
     </definition>
     
-    <!-- index首页 -->
-<!--     <definition name="index" extends="facadeleaf.baseLayout"> -->
-<!--         <put-attribute name="title" value="欢迎来到ElfLeaf" /> -->
-<!--         <put-attribute name="body" value="/WEB-INF/jsp/index.jsp" /> -->
-<!--     </definition> -->
+
 
 </tiles-definitions>

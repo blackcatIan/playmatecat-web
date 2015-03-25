@@ -7,7 +7,6 @@
         <put-attribute name="primary-content" value="" />
     </definition>
     
-
     <!-- index首页 -->
 <!--     <definition name="index" extends="facadeleaf.baseLayout"> -->
 <!--         <put-attribute name="title" value="欢迎来到ElfLeaf" /> -->
