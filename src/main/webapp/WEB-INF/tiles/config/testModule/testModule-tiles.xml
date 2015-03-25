@@ -3,10 +3,6 @@
        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
 <tiles-definitions>
-    <definition name="testProject.baseLayout" template="/WEB-INF/tiles/layouts/testProject/baseLayout.jsp">
-        <put-attribute name="primary-content" value="" />
-    </definition>
-    
     <!-- 测试页面 -->
     <definition name="testModule.testMain" extends="testProject.baseLayout">
         <put-attribute name="title" value="tiles测试页" />
