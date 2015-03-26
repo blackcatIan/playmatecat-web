@@ -123,6 +123,14 @@
             <artifactId>standard</artifactId>
             <version>1.1.2</version>
         </dependency>
+        
+        <!-- servlet-api,web项目必须 -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+            <scope>provided</scope>
+        </dependency>
 
 	</dependencies>
 
