@@ -139,6 +139,12 @@
             <version>2.5</version>
             <scope>provided</scope>
         </dependency>
+        <!-- JSR-303验证 -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>5.1.2.Final</version>
+        </dependency>
 
 	</dependencies>
 
